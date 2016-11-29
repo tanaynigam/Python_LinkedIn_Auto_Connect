@@ -12,10 +12,10 @@ def login_linkedin(): #email, password):
 	#print chromedriver.page_source
 
 	email = chromedriver.find_element_by_xpath('//*[@id="login-email"]')
-	email.send_keys('tanaynigam12@gmail.com')
+	email.send_keys('my_email')
 
 	password = chromedriver.find_element_by_xpath('//*[@id="login-password"]')
-	password.send_keys('beaxtx.1993')
+	password.send_keys('my_pass')
 
 	sign_in = chromedriver.find_element_by_xpath('//*[@id="login-submit"]')
 	sign_in.click()

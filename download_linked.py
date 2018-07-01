@@ -25,7 +25,7 @@ def login_linkedin(): #email, password):
 
 time.sleep(2)
 
-login_linkedin()#'tanaynigam12@gmail.com','beaxtx.1993')
+login_linkedin()#'tanaynigam12@gmail.com','password')
 
 search_input = chromedriver.find_element_by_xpath('//*[@id="main-search-box"]')
 search_input.send_keys('technical recruiter')
